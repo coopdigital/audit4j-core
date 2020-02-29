@@ -65,6 +65,17 @@ public class EnvUtil {
         return JavaVersion.isJDK_N_OrHigher(7, getJavaVersion());
     }
 
+    /**
+     * Gets the javaersion
+     *
+     * @deprecated renamed this method. use {@link EnvUtil#getJavaVersion()} instead.
+     *
+     * @return the javaersion
+     */
+    @Deprecated
+    public static String getJavaersion() {
+        return getJavaVersion();
+    }
 
     /**
      * Gets the java version.
