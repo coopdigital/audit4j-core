@@ -23,7 +23,7 @@
 	<artifactId>audit4j-core</artifactId>
 	<packaging>jar</packaging>
 	<name>Audit4j - Core</name>
-	<version>2.5.1</version>
+	<version>2.5.1 </version>
 	<url>http://audit4j.org</url>
 	<description>Audit4j - An open-source auditing framework for Java, Core</description>
 
@@ -55,31 +55,11 @@
 		</license>
 	</licenses>
 
-	<scm>
-		<connection>scm:git:git@github.com:audit4j/audit4j-core.git</connection>
-		<developerConnection>scm:git:git@github.com:audit4j/audit4j-core.git</developerConnection>
-		<url>scm:git:git@github.com:audit4j/audit4j-core.git</url>
-	</scm>
-
-	<issueManagement>
-		<system>github</system>
-		<url>https://github.com/audit4j/audit4j-core/issues</url>
-	</issueManagement>
-
-	<ciManagement>
-		<system>travis-ci</system>
-		<url>https://travis-ci.org/audit4j/audit4j-core</url>
-	</ciManagement>
-
 	<distributionManagement>
 		<repository>
-			<id>oss.sonatype.org</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+			<id>central</id>
+			<url>https://artifactory.dpm.digital.coop.co.uk/artifactory/libs-release-local</url>
 		</repository>
-		<snapshotRepository>
-			<id>oss.sonatype.org</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository>
 	</distributionManagement>
 
 	<properties>

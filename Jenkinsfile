@@ -14,9 +14,15 @@ pipeline{
                 }
         }
 
-        stage('build-and-test') {
+        stage('build-and-test'){
             steps {
                 sh "mvn -B -U clean test"
+            }
+        }
+
+        stage('deploy'){
+            steps{
+                sh 'mvn deploy'
             }
         }
     }
