@@ -58,9 +58,11 @@
 	<distributionManagement>
 		<repository>
 			<id>central</id>
+			<name>artifactstore-i-0d6233f394391b9ed.digital.internal-releases</name>
 			<url>https://artifactory.dpm.digital.coop.co.uk/artifactory/libs-release-local</url>
 		</repository>
 	</distributionManagement>
+
 
 	<properties>
 		<junit.version>4.12</junit.version>
